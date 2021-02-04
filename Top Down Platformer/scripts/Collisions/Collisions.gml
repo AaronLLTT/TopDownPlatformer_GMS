@@ -33,7 +33,7 @@ function TileMeeting3D(newX, newY, tiles) {
 	for(var i = 0; i < array_length(tiles); ++i) {
 		
 		//In this project, each tileset is 16 pixels higher on the z axis, so I set that here
-		//I chose 16 because that's the size of the tiles. To do more or less, adjust the tile
+		//I chose 16 because that's half the size of the tiles. To do more or less, adjust the tile
 		//size as well
 		var tileZ = (i + 1) * -16;
 		

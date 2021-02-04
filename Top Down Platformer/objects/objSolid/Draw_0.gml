@@ -7,7 +7,7 @@ if (z != -16) {
 
 //Self at higher
 depth = -bbox_bottom + z;
-draw_sprite_ext(sprSolid, 0, x, ystart + z, image_xscale, image_yscale, image_angle, c_white, 1);
+draw_sprite_ext(sprite_index, 0, x, ystart + z, image_xscale, image_yscale, image_angle, c_white, 1);
 
 //Draw the collision mask
 if (showCollisionMask) {

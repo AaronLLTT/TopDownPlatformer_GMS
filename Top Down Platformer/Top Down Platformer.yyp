@@ -1,7 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"sprPlayerShadow","path":"sprites/sprPlayerShadow/sprPlayerShadow.yy",},"order":3,},
-    {"id":{"name":"objDepthManager","path":"objects/objDepthManager/objDepthManager.yy",},"order":6,},
+    {"id":{"name":"sprPlayerShadow","path":"sprites/sprPlayerShadow/sprPlayerShadow.yy",},"order":2,},
     {"id":{"name":"Cameras","path":"scripts/Cameras/Cameras.yy",},"order":0,},
     {"id":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},"order":2,},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},"order":1,},
@@ -11,7 +10,7 @@
     {"id":{"name":"gentle_forest__rabite_palette","path":"sprites/gentle_forest__rabite_palette/gentle_forest__rabite_palette.yy",},"order":1,},
     {"id":{"name":"tsJungle","path":"tilesets/tsJungle/tsJungle.yy",},"order":0,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
-    {"id":{"name":"sprSolid","path":"sprites/sprSolid/sprSolid.yy",},"order":15,},
+    {"id":{"name":"sprSolid","path":"sprites/sprSolid/sprSolid.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"71c275c4-b875-43a5-982b-e254f6b29a5f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Top Down Platformer",
-    "path": "Top Down Platformer.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprSolid",

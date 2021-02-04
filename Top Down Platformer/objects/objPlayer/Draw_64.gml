@@ -1,4 +1,4 @@
-/// @description Draw Z Details
+/// @description Draw Z Details for Debugging
 draw_set_font(fntDebugging);
 
 draw_set_alpha(0.8);
@@ -12,5 +12,4 @@ draw_text(16, 60, "Z Floor: " + string(zFloor));
 var block = instance_place(x, y, objSolid);
 if (block) {
 	draw_text(16, 110, "Block's Z: " + string(block.z));
-	//depth = -bbox_bottom;
 }
