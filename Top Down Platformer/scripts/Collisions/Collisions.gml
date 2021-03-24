@@ -16,7 +16,7 @@ function PlaceMeeting3D(newX, newY, object) {
 	//z <= block.z enforces the z axis collision, because the lower something is, the higher it is in the game world
 	//so when our z is less than (<) block.z, we're either equal to it (standing on it) or above it
 	//The zHeight >= block.z allows me to walk under tall blocks
-	if (!block || (z <= block.z || zHeight >= block.z)) {
+	if (block == noone || (z <= block.z || zHeight >= block.z)) {
 		return false; //Once we return, we leave the function
 	}
 	
